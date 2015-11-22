@@ -19,7 +19,7 @@ You can get the necessary values for your account at https://copr.fedoraproject.
 
 ### Example
 
-Suppose your SRPM is located at /home/myuser/SRPMS/foobar.src.rpm
+Suppose your SRPM is located at ```/home/myuser/SRPMS/foobar.src.rpm```
 
 ```
 docker run -it --rm \
