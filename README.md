@@ -12,7 +12,7 @@ Supply the following environment variables to docker run:
 COPR_LOGIN=
 COPR_USERNAME=
 COPR_TOKEN=
-COPR_URL=
+COPR_COPR_URL=
 ```
 
 You can get the necessary values for your account at https://copr.fedoraproject.org/api/
@@ -27,7 +27,7 @@ docker run -it --rm \
   -e COPR_LOGIN=edwfnbwekdnweo \
   -e COPR_USERNAME=myuser \
   -e COPR_TOKEN=dsifhweiohdfisaucnhiwsg \
-  -e COPR_URL=https://copr.fedoraproject.org \
+  -e COPR_COPR_URL=https://copr.fedoraproject.org \
   mgruener/copr-cli \
   build myuser/foobar /build/foobar.src.rpm
 ```
